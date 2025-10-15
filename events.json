@@ -1,0 +1,56 @@
+[
+  {
+    "title": "AI & Machine Learning Summit 2025",
+    "dateTime": "2001-01-13T07:00:00+05:30",
+    "eventType": "Online",
+    "thumbnail": "https://example.com/thumbnails/ai-summit.jpg"
+  },
+  {
+    "title": "Delhi Startup Networking Meetup",
+    "dateTime": "2001-01-14T07:00:00+05:30",
+    "eventType": "Offline",
+    "thumbnail": "https://example.com/thumbnails/startup-meetup.jpg"
+  },
+  {
+    "title": "Digital Marketing Masterclass",
+    "dateTime": "2001-01-15T07:00:00+05:30",
+    "eventType": "Online",
+    "thumbnail": "https://example.com/thumbnails/digital-marketing.jpg"
+  },
+  {
+    "title": "Blockchain for Business Conference",
+    "dateTime": "2001-01-16T07:00:00+05:30",
+    "eventType": "Offline",
+    "thumbnail": "https://example.com/thumbnails/blockchain-conference.jpg"
+  },
+  {
+    "title": "Remote Work Productivity Workshop",
+    "dateTime": "2001-01-17T07:00:00+05:30",
+    "eventType": "Online",
+    "thumbnail": "https://example.com/thumbnails/remote-work.jpg"
+  },
+  {
+    "title": "UI/UX Design Meetup",
+    "dateTime": "2001-01-18T07:00:00+05:30",
+    "eventType": "Offline",
+    "thumbnail": "https://example.com/thumbnails/uiux-meetup.jpg"
+  },
+  {
+    "title": "Health & Wellness Online Retreat",
+    "dateTime": "2001-01-19T07:00:00+05:30",
+    "eventType": "Online",
+    "thumbnail": "https://example.com/thumbnails/wellness-retreat.jpg"
+  },
+  {
+    "title": "Cybersecurity Awareness Seminar",
+    "dateTime": "2001-01-20T07:00:00+05:30",
+    "eventType": "Offline",
+    "thumbnail": "https://example.com/thumbnails/cybersecurity.jpg"
+  },
+  {
+    "title": "Entrepreneurship & Innovation Forum",
+    "dateTime": "2001-01-21T07:00:00+05:30",
+    "eventType": "Offline",
+    "thumbnail": "https://example.com/thumbnails/innovation-forum.jpg"
+  }
+]

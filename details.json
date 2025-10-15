@@ -1,0 +1,193 @@
+[
+  {
+    "title": "AI & Machine Learning Summit 2025",
+    "host": "Tech Innovators Inc.",
+    "image": "https://example.com/images/ai-summit.jpg",
+    "details": "An in-depth online summit covering AI, Machine Learning, and data science trends.",
+    "dressCode": "Business Casual",
+    "ageRestrictions": "18+",
+    "tags": ["AI & Machine Learning", "Virtual Conference", "Tech Talk"],
+    "duration": "2001-01-13T12:00:00+05:30",
+    "location": "Online",
+    "price": "₹999",
+    "speakers": [
+      {
+        "name": "Dr. Ayesha Kumar",
+        "image": "https://example.com/speakers/ayesha.jpg",
+        "position": "Lead AI Scientist"
+      },
+      {
+        "name": "Rajesh Mehta",
+        "image": "https://example.com/speakers/rajesh.jpg",
+        "position": "ML Engineer"
+      }
+    ]
+  },
+  {
+    "title": "Delhi Startup Networking Meetup",
+    "host": "Delhi Entrepreneurs Hub",
+    "image": "https://example.com/images/startup-meetup.jpg",
+    "details": "Offline meetup for networking with top startup founders and investors in Delhi.",
+    "dressCode": "Casual",
+    "ageRestrictions": "18+",
+    "tags": ["Networking Event", "Startup Meetup", "Entrepreneurship"],
+    "duration": "2001-01-14T10:00:00+05:30",
+    "location": "Delhi, India",
+    "price": "Free",
+    "speakers": [
+      {
+        "name": "Neha Sharma",
+        "image": "https://example.com/speakers/neha.jpg",
+        "position": "Startup Mentor"
+      },
+      {
+        "name": "Vikram Singh",
+        "image": "https://example.com/speakers/vikram.jpg",
+        "position": "Investor"
+      }
+    ]
+  },
+  {
+    "title": "Digital Marketing Masterclass",
+    "host": "Marketing Gurus",
+    "image": "https://example.com/images/digital-marketing.jpg",
+    "details": "Learn advanced digital marketing strategies including SEO, SEM, and social media.",
+    "dressCode": "Business Casual",
+    "ageRestrictions": "16+",
+    "tags": ["Digital Marketing", "Online Workshop", "Growth Hacking"],
+    "duration": "2001-01-15T14:00:00+05:30",
+    "location": "Online",
+    "price": "₹499",
+    "speakers": [
+      {
+        "name": "Priya Nair",
+        "image": "https://example.com/speakers/priya.jpg",
+        "position": "Digital Marketing Expert"
+      }
+    ]
+  },
+  {
+    "title": "Blockchain for Business Conference",
+    "host": "Blockchain India",
+    "image": "https://example.com/images/blockchain-conference.jpg",
+    "details": "Offline conference covering blockchain solutions for business and finance.",
+    "dressCode": "Formal",
+    "ageRestrictions": "18+",
+    "tags": ["Blockchain", "Business Conference", "Tech Expo"],
+    "duration": "2001-01-16T09:00:00+05:30",
+    "location": "Bangalore, India",
+    "price": "₹1499",
+    "speakers": [
+      {
+        "name": "Arjun Patel",
+        "image": "https://example.com/speakers/arjun.jpg",
+        "position": "Blockchain Consultant"
+      },
+      {
+        "name": "Sneha Kapoor",
+        "image": "https://example.com/speakers/sneha.jpg",
+        "position": "CTO"
+      }
+    ]
+  },
+  {
+    "title": "Remote Work Productivity Workshop",
+    "host": "Global Remote Work Network",
+    "image": "https://example.com/images/remote-work.jpg",
+    "details": "Online workshop to enhance productivity while working remotely and collaborating globally.",
+    "dressCode": "Casual",
+    "ageRestrictions": "16+",
+    "tags": ["Remote Work", "Online Workshop", "Remote Collaboration"],
+    "duration": "2001-01-17T08:00:00+05:30",
+    "location": "Online",
+    "price": "₹299",
+    "speakers": [
+      {
+        "name": "Suresh Rao",
+        "image": "https://example.com/speakers/suresh.jpg",
+        "position": "Productivity Coach"
+      }
+    ]
+  },
+  {
+    "title": "UI/UX Design Meetup",
+    "host": "Designers Hub Delhi",
+    "image": "https://example.com/images/uiux-meetup.jpg",
+    "details": "Offline meetup to share UI/UX design insights and network with fellow designers.",
+    "dressCode": "Casual",
+    "ageRestrictions": "18+",
+    "tags": ["UI/UX Design", "Networking Event", "Design Meetup"],
+    "duration": "2001-01-18T10:00:00+05:30",
+    "location": "Delhi, India",
+    "price": "Free",
+    "speakers": [
+      {
+        "name": "Amit Joshi",
+        "image": "https://example.com/speakers/amit.jpg",
+        "position": "Senior UX Designer"
+      }
+    ]
+  },
+  {
+    "title": "Health & Wellness Online Retreat",
+    "host": "Wellness World",
+    "image": "https://example.com/images/wellness-retreat.jpg",
+    "details": "Online retreat focused on mental and physical wellness techniques.",
+    "dressCode": "Comfortable",
+    "ageRestrictions": "16+",
+    "tags": ["Health & Wellness", "Online Workshop", "E-learning"],
+    "duration": "2001-01-19T07:00:00+05:30",
+    "location": "Online",
+    "price": "₹199",
+    "speakers": [
+      {
+        "name": "Ritika Verma",
+        "image": "https://example.com/speakers/ritika.jpg",
+        "position": "Wellness Coach"
+      }
+    ]
+  },
+  {
+    "title": "Cybersecurity Awareness Seminar",
+    "host": "CyberSafe India",
+    "image": "https://example.com/images/cybersecurity.jpg",
+    "details": "Offline seminar teaching practical cybersecurity techniques for individuals and businesses.",
+    "dressCode": "Business Casual",
+    "ageRestrictions": "16+",
+    "tags": ["Cybersecurity", "Educational Seminar", "Tech Talk"],
+    "duration": "2001-01-20T09:00:00+05:30",
+    "location": "Mumbai, India",
+    "price": "₹499",
+    "speakers": [
+      {
+        "name": "Karan Malhotra",
+        "image": "https://example.com/speakers/karan.jpg",
+        "position": "Cybersecurity Expert"
+      }
+    ]
+  },
+  {
+    "title": "Entrepreneurship & Innovation Forum",
+    "host": "Innovators Network",
+    "image": "https://example.com/images/innovation-forum.jpg",
+    "details": "Offline forum to explore entrepreneurship, innovation, and startup investment opportunities.",
+    "dressCode": "Formal",
+    "ageRestrictions": "18+",
+    "tags": ["Entrepreneurship", "Business Conference", "Startup Meetup"],
+    "duration": "2001-01-21T10:00:00+05:30",
+    "location": "Bangalore, India",
+    "price": "₹1299",
+    "speakers": [
+      {
+        "name": "Meera Iyer",
+        "image": "https://example.com/speakers/meera.jpg",
+        "position": "Startup Mentor"
+      },
+      {
+        "name": "Rahul Gupta",
+        "image": "https://example.com/speakers/rahul.jpg",
+        "position": "Investor"
+      }
+    ]
+  }
+]
