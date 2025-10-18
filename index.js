@@ -21,10 +21,10 @@ app.use(express.json())
 initializeDatabase();
 
 
-// const jsonData = fs.readFileSync("events.json" , "utf-8")
-// const jsonDetailData = fs.readFileSync("details.json" , "utf-8")
-// const eventsData = JSON.parse(jsonData);
-// const detailsData = JSON.parse(jsonDetailData)
+ const jsonData = fs.readFileSync("events.json" , "utf-8")
+ const jsonDetailData = fs.readFileSync("details.json" , "utf-8")
+const eventsData = JSON.parse(jsonData);
+const detailsData = JSON.parse(jsonDetailData)
 
 // function seedData() {
 //     try{
@@ -142,7 +142,4 @@ app.post("/meetups/:meetupId" , async (req, res) =>{
 
 
 
-const PORT = process.env.PORT || 3000
-app.listen(PORT , () => {
-  console.log("server is running a port" , PORT)
-})
+module.exports = app;

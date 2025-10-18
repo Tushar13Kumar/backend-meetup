@@ -9,7 +9,7 @@ const initializeDatabase = async () => {
 .then(() => {
     console.log("connected to Database");
 })
-.catch((error) => console.log("Error connecting to Database" ,))
+.catch((error) => console.log("Error connecting to Database" , error))
 }
 
 module.exports = { initializeDatabase }
