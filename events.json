@@ -1,56 +1,56 @@
 [
   {
     "title": "AI & Machine Learning Summit 2025",
-    "dateTime": "2001-01-13T07:00:00+05:30",
+    "dateTime": "2001-01-13T01:30:00.000+00:00",
     "eventType": "Online",
-    "thumbnail": "https://example.com/thumbnails/ai-summit.jpg"
+    "thumbnail": "https://picsum.photos/id/1/300"
   },
   {
     "title": "Delhi Startup Networking Meetup",
-    "dateTime": "2001-01-14T07:00:00+05:30",
+    "dateTime": "2001-01-14T01:30:00.000+00:00",
     "eventType": "Offline",
-    "thumbnail": "https://example.com/thumbnails/startup-meetup.jpg"
+    "thumbnail": "https://picsum.photos/id/378/300"
   },
   {
     "title": "Digital Marketing Masterclass",
-    "dateTime": "2001-01-15T07:00:00+05:30",
+    "dateTime": "2001-01-15T01:30:00.000+00:00",
     "eventType": "Online",
-    "thumbnail": "https://example.com/thumbnails/digital-marketing.jpg"
+    "thumbnail": "https://picsum.photos/id/180/300"
   },
   {
     "title": "Blockchain for Business Conference",
-    "dateTime": "2001-01-16T07:00:00+05:30",
+    "dateTime": "2001-01-16T01:30:00.000+00:00",
     "eventType": "Offline",
-    "thumbnail": "https://example.com/thumbnails/blockchain-conference.jpg"
+    "thumbnail": "https://picsum.photos/id/7/300"
   },
   {
     "title": "Remote Work Productivity Workshop",
-    "dateTime": "2001-01-17T07:00:00+05:30",
+    "dateTime": "2001-01-17T01:30:00.000+00:00",
     "eventType": "Online",
-    "thumbnail": "https://example.com/thumbnails/remote-work.jpg"
+    "thumbnail": "https://picsum.photos/id/20/300"
   },
   {
-    "title": "UI/UX Design Meetup",
-    "dateTime": "2001-01-18T07:00:00+05:30",
+    "title": "UI-UX Design Meetup",
+    "dateTime": "2001-01-18T01:30:00.000+00:00",
     "eventType": "Offline",
-    "thumbnail": "https://example.com/thumbnails/uiux-meetup.jpg"
+    "thumbnail": "https://picsum.photos/id/42/300"
   },
   {
     "title": "Health & Wellness Online Retreat",
-    "dateTime": "2001-01-19T07:00:00+05:30",
+    "dateTime": "2001-01-19T01:30:00.000+00:00",
     "eventType": "Online",
-    "thumbnail": "https://example.com/thumbnails/wellness-retreat.jpg"
+    "thumbnail": "https://picsum.photos/id/48/300"
   },
   {
     "title": "Cybersecurity Awareness Seminar",
-    "dateTime": "2001-01-20T07:00:00+05:30",
+    "dateTime": "2001-01-20T01:30:00.000+00:00",
     "eventType": "Offline",
-    "thumbnail": "https://example.com/thumbnails/cybersecurity.jpg"
+    "thumbnail": "https://picsum.photos/id/192/300"
   },
   {
     "title": "Entrepreneurship & Innovation Forum",
-    "dateTime": "2001-01-21T07:00:00+05:30",
+    "dateTime": "2001-01-21T01:30:00.000+00:00",
     "eventType": "Offline",
-    "thumbnail": "https://example.com/thumbnails/innovation-forum.jpg"
+    "thumbnail": "https://picsum.photos/id/445/300"
   }
 ]
