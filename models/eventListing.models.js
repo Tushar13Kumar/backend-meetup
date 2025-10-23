@@ -1,30 +1,81 @@
 const mongoose = require("mongoose");
 
 const eventSchema = new mongoose.Schema({
-    title:{
+    title: {
         type: String,
-        required: true
+        required: true,
     },
     dateTime: {
         type: Date,
         required: true,
-
     },
-    // time: {
-    //     type: Date,
-    //     required: true,
-    // },
     eventType: {
         type: String,
-        enum: ["Online" , "Offline"],
-        required: true
-    }, 
+        enum: ["Online", "Offline"],
+        required: true,
+    },
     thumbnail: {
         type: String,
         required: true,
-    }
-}, {timestamps: true,});
+    },
+    tags: [
+        {
+            type: String,
+            enum: [
+                "Digital Marketing",
+                "Webinar",
+                "Virtual Conference",
+                "Online Workshop",
+                "Remote Work",
+                "E-learning",
+                "Tech Talk",
+                "Startup Pitch",
+                "AI & Machine Learning",
+                "Blockchain",
+                "Product Management",
+                "Social Media Strategy",
+                "Content Creation",
+                "Cloud Computing",
+                "Cybersecurity",
+                "Software Development",
+                "Data Analytics",
+                "UI/UX Design",
+                "SEO & SEM",
+                "Personal Branding",
+                "Digital Transformation",
+                "Growth Hacking",
+                "Online Networking",
+                "Entrepreneurship",
+                "Remote Collaboration",
+                "Networking Event",
+                "Startup Meetup",
+                "Business Conference",
+                "Tech Expo",
+                "Hackathon",
+                "Community Gathering",
+                "Product Launch",
+                "Panel Discussion",
+                "Career Fair",
+                "Investor Meetup",
+                "Marketing Summit",
+                "Workshop",
+                "Leadership Talk",
+                "Team Building",
+                "Design Meetup",
+                "Photography Walk",
+                "Local Business Event",
+                "Co-working Meetup",
+                "Innovation Summit",
+                "Recruitment Drive",
+                "Open Mic Night",
+                "Art & Culture Meetup",
+                "Health & Wellness",
+                "Public Speaking",
+                "Educational Seminar"
+            ],
+        },
+    ],
+}, { timestamps: true });
 
 const EventListing = mongoose.model("EventListing", eventSchema);
-
 module.exports = EventListing;
