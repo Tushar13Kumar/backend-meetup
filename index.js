@@ -104,5 +104,32 @@ app.post("/meetups/:meetupId", async (req, res) => {
     res.status(500).json({ error: "Failed to update meetup" });
   }
 });
+// ✅ Update event details by title
+// ✅ Update event details by title
+app.post("/meetups/details/:title", async (req, res) => {
+  try {
+    const { title } = req.params;
+    const dataToUpdate = req.body;
+
+    const updatedDetail = await Detail.findOneAndUpdate(
+      { title },
+      dataToUpdate,
+      { new: true }
+    );
+
+    if (updatedDetail) {
+      res.status(200).json({
+        message: "Details updated successfully",
+        updatedDetail,
+      });
+    } else {
+      res.status(404).json({ error: "Event details not found" });
+    }
+  } catch (error) {
+    console.error("Error updating details:", error);
+    res.status(500).json({ error: "Failed to update details" });
+  }
+});
+
 
 module.exports = app;
