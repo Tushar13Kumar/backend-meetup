@@ -93,6 +93,10 @@ const detailSchema = new mongoose.Schema({
         type: String,
         required: true,
     },
+    eventTime: {
+        type: String,
+        required: true,
+    },
     // speaker:{
     //     type: Number,
     //     required: true,
