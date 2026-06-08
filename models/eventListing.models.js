@@ -77,5 +77,5 @@ const eventSchema = new mongoose.Schema({
     ],
 }, { timestamps: true });
 
-const EventListing = mongoose.model("EventListing", eventSchema);
+const EventListing = mongoose.model("EventListing", eventSchema, "eventlistings");
 module.exports = EventListing;
