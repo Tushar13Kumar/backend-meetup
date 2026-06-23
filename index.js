@@ -13,8 +13,10 @@ const app = express();
 // ✅ Proper CORS setup
 app.use(
   cors({
-   origin: "*",
- 
+    origin: [
+      "https://frontend-meetups.vercel.app",
+      "http://localhost:5173"
+    ],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
   })
